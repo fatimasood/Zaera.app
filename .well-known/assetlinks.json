@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zaera.app",
+      "sha256_cert_fingerprints": [
+        "31:57:FA:6F:87:56:1D:35:58:F4:95:BD:19:41:85:31:AB:FD:02:ED:C8:E"
+      ]
+    }
+  }
+]
