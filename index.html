@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Zaera App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaera App - Split Bills Easily</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #45a049;
+        }
+        .instructions {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-<h1>Zaera App Links</h1>
-<p>This site is used for Android App Links verification.</p>
+    <div class="container">
+        <h1>🎉 Zaera App</h1>
+        <p>Split bills with friends easily!</p>
+        
+        <div class="instructions">
+            <h3>📱 How to Use:</h3>
+            <p>1. Download Zaera App from Play Store</p>
+            <p>2. Ask your friend to share group link</p>
+            <p>3. Tap the link to join group automatically</p>
+        </div>
+        
+        <a href="https://play.google.com/store/apps/details?id=com.yourapp.zaera" 
+           class="button">
+           📥 Download App
+        </a>
+    </div>
 </body>
 </html>
