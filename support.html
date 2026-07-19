@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Zaera</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #F7F4EF 0%, #F0EBE3 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+            color: #3E3C37;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(62, 60, 55, 0.1);
+        }
+        h1 {
+            color: #3E3C37;
+            font-size: 28px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #7D8F69;
+            padding-bottom: 10px;
+        }
+        .contact-methods {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .contact-card {
+            background: #F7F4EF;
+            padding: 20px;
+            border-radius: 16px;
+            border: 1px solid #3E3C3710;
+        }
+        h2 {
+            color: #3F8E8E;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #3E3C37;
+            opacity: 0.8;
+            margin-bottom: 8px;
+        }
+        a {
+            color: #3F8E8E;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .faq {
+            margin-top: 30px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #3E3C3710;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #3F8E8E;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Support</h1>
+        
+        <div class="contact-methods">
+            <div class="contact-card">
+                <h2>📧 Email Support</h2>
+                <p>For general inquiries and support:</p>
+                <a href="mailto:support@zaera.app">support@zaera.app</a>
+                <p style="font-size: 14px; margin-top: 8px;">Response time: Within 24 hours</p>
+            </div>
+
+            <div class="contact-card">
+                <h2>🐛 Report a Bug</h2>
+                <p>Found a bug? Let us know:</p>
+                <a href="mailto:bugs@zaera.app">bugs@zaera.app</a>
+                <p style="font-size: 14px; margin-top: 8px;">Please include screenshots and steps to reproduce</p>
+            </div>
+
+            <div class="contact-card">
+                <h2>💡 Feature Request</h2>
+                <p>Have an idea for improvement?</p>
+                <a href="mailto:feedback@zaera.app">feedback@zaera.app</a>
+                <p style="font-size: 14px; margin-top: 8px;">We love hearing from our users!</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h2 style="color: #3E3C37; margin-bottom: 20px;">Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>How do I create a group?</h3>
+                <p>Tap the "+" button on the home screen, select "Create Group", add a group name, and invite members by their email addresses.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I split an expense?</h3>
+                <p>When adding an expense, you can split it equally among all group members, by percentage, or by custom amounts.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is my data secure?</h3>
+                <p>Yes! We use Supabase for secure authentication and data storage. All data is encrypted in transit and at rest.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I export my expense data?</h3>
+                <p>Currently, you can view all your expense history in the app. Data export functionality is coming soon!</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I delete my account?</h3>
+                <p>Go to Settings → Account → Delete Account. This will permanently delete all your data. This action cannot be undone.</p>
+            </div>
+        </div>
+
+        <a href="/Zaera.app/" class="back-link">← Back to Home</a>
+    </div>
+</body>
+</html>
